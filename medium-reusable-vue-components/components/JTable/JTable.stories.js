@@ -12,15 +12,32 @@ var items = [
 ]
 
 storiesOf('JTable', module)
-  .add('with 7 items', () => ({
+  // .add('with 7 items', () => ({
+  //   components: { JTable },
+  //   template:
+  //   `
+  //     <JTable
+  //       :items="items"
+  //     />
+  //   `,
+  //   data: () => ({
+  //     items
+  //   })
+  // }))
+  .add('with 7 items + header', () => ({
     components: { JTable },
     template:
     `
       <JTable
+        :header="header"
         :items="items"
       />
     `,
     data: () => ({
+      header: [
+        'Name',
+        'Email'
+      ],
       items
     })
   }))
