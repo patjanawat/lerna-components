@@ -1,10 +1,10 @@
 {
   "name": "@patjanawat/j-table",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@patjanawat/j-table-row": "^0.0.0"
+    "@patjanawat/j-table-row": "^0.1.0"
   }
 }
