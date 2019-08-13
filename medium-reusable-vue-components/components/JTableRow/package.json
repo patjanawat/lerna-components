@@ -1,6 +1,7 @@
 {
   "name": "@patjanawat/j-table-row",
-  "version": "0.1.1",
+  "version": "0.1.2",
+  "main": "JTableRow.vue",
   "publishConfig": {
     "access": "public"
   }
