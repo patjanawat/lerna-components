@@ -716,6 +716,18 @@
     cssnano-preset-default "^4.0.0"
     postcss "^7.0.0"
 
+"@jsilva-pt/j-table-row@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@jsilva-pt/j-table-row/-/j-table-row-0.1.0.tgz#ddb42d16506b3d8be55690e8be110e59a7aa3c95"
+  integrity sha512-bgznPZZkjJUKpx6rhouMTBu4ns1pHBEZDCIPGtkILEn+3hAPrFaisUKwtXNwiqSExuWRbjluMJDqxkTTkj5oFg==
+
+"@jsilva-pt/j-table@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@jsilva-pt/j-table/-/j-table-0.2.1.tgz#e563014d9cc22d47b9182b782e503f507418cca6"
+  integrity sha512-YRdOOcbFkHuiw06+9R8lGSdVhO191CkVsZdhSybwrqqvZiuPEPPOndfrr7YzS31xgWfCsVWxRKPeC2DQU+7K/Q==
+  dependencies:
+    "@jsilva-pt/j-table-row" "^0.1.0"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.npm.taobao.org/@mrmlnc/readdir-enhanced/download/@mrmlnc/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -3892,9 +3904,9 @@ hex-color-regex@^1.1.0:
   integrity sha1-TAb8y0YC/iYCs8k9+C1+fb8aio4=
 
 highlight.js@^9.6.0:
-  version "9.15.8"
-  resolved "https://registry.npm.taobao.org/highlight.js/download/highlight.js-9.15.8.tgz?cache=0&sync_timestamp=1559139087925&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhighlight.js%2Fdownload%2Fhighlight.js-9.15.8.tgz#f344fda123f36f1a65490e932cf90569e4999971"
-  integrity sha1-80T9oSPzbxplSQ6TLPkFaeSZmXE=
+  version "9.18.5"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.5.tgz#d18a359867f378c138d6819edfc2a8acd5f29825"
+  integrity sha512-a5bFyofd/BHCX52/8i8uJkjr9DYwXIPnM/plwI6W7ezItLGqzt7X2G2nXuYSfsIJdkwwj/g9DG1LkcGJI/dDoA==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
